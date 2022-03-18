@@ -1,6 +1,6 @@
 {
 	"name": "@samilkahraman/demand-namer",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"description": "Formats product names",
 	"repository": "samilkahraman/demand-namer",
 	"main": "index.js"
