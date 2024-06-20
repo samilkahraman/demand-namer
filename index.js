@@ -1,9 +1,9 @@
 // Sheet Format
-const { pervazToSheet } = require('./lib/products/pervaz/sheetFormat');
-const { uPervazToSheet } = require('./lib/products/uPervaz/sheetFormat');
-const { uKasaToSheet } = require('./lib/products/uKasa/sheetFormat');
-const { kasaToSheet } = require('./lib/products/kasa/sheetFormat');
-const { kanatToSheet } = require('./lib/products/kanat/sheetFormat');
+const { pervazToSheet, sheetToPervaz } = require('./lib/products/pervaz/sheetFormat');
+const { uPervazToSheet, sheetToUPervaz } = require('./lib/products/uPervaz/sheetFormat');
+const { uKasaToSheet, sheetToUKasa } = require('./lib/products/uKasa/sheetFormat');
+const { kasaToSheet, sheetToKasa } = require('./lib/products/kasa/sheetFormat');
+const { kanatToSheet, sheetToKanat } = require('./lib/products/kanat/sheetFormat');
 
 // Namer (TR)
 const { nameKasaTR } = require('./lib/products/kasa/namer');
@@ -13,14 +13,19 @@ const { nameKanatTR } = require('./lib/products/kanat/namer');
 const { nameUKasaTR } = require('./lib/products/uKasa/namer');
 
 module.exports = {
-	pervazToSheet,
-	uPervazToSheet,
-	uKasaToSheet,
-	kasaToSheet,
-	kanatToSheet,
-	nameKasaTR,
-	namePervazTR,
-	nameUPervazTR,
-	nameKanatTR,
-	nameUKasaTR,
+    pervazToSheet,
+    sheetToPervaz,
+    uPervazToSheet,
+    sheetToUPervaz,
+    uKasaToSheet,
+    sheetToUKasa,
+    kasaToSheet,
+    sheetToKasa,
+    kanatToSheet,
+    sheetToKanat,
+    nameKasaTR,
+    namePervazTR,
+    nameUPervazTR,
+    nameKanatTR,
+    nameUKasaTR,
 };
